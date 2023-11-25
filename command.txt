@@ -1,0 +1,79 @@
+    1  mkdir abi
+    2  ls
+    3  cd ..
+    4  mkdir abi
+    5  pwd
+    6  mkdir test_app
+    7  clear
+    8  mkdir test_app
+    9  pwd
+   10  clear
+   11  rmdir test_app
+   12  touch f1.txt
+   13  cat f1.txt
+   14  nano f1.txt
+   15  cat f1.txt
+   16  clear
+   17  history >> commands.txt
+   18  mkdir text_app
+   19  touch f1.txt
+   20  touch f2.py f3.sql p4.txt
+   21  pwd
+   22  mkdir text_appp
+   23  pwd
+   24  pwd
+   25  git init
+   26  ls -a
+   27  git config --list
+   28  git config --global user.name 'abishekmohanrk'
+   29  git config --global user.email 'abishekmohanrk@gmail.com'
+   30  git config --list
+   31  git remote -v
+   32  git remote add origin https://github.com/abishekmohanrk/text_app.git
+   33  git remote -v
+   34  git branch -m master main
+   35  clear
+   36  ls
+   37  git status
+   38  git add f1,txt
+   39  git add f1.txt
+   40  git add f1.txt.txt
+   41  git status
+   42  git add f2.txt.txt
+   43  git add f2.sql.txt
+   44  git rm --cached f2.sql.txt
+   45  git add .
+   46  git status
+   47  git rm -r --cached
+   48  git add .
+   49  git commit -m 'this is my first commit'
+   50  git status
+   51  git push -f origin main
+   52  git push -f origin main
+   53  git push --set-upstream origin main
+   54  history >> commands.txt
+   55  mkdir test_app1
+   56  ls
+   57  cd test_app1
+   58  mkdir f2 f3 f4 
+   59  rmdir f2 f3 f4
+   60  mkdir f2
+   61  rmdir f2
+   62  rm -r f2
+   63  touch f1.txt f2.py f3.sql
+   64  cat f1.txt
+   65  nano f2.py
+   66  cat f2.py
+   67  cd test_app1
+   68  history >> commands.txt
+   69  git init
+   70  cd ..
+   71  mkdir test_app2
+   72  ls
+   73  cd test_app2
+   74  touch f5.txt f6.py f7.sql
+   75  nano f5.txt
+   76  nano f6.py
+   77  cat f5.txt
+   78  history
+   79  history >> command.txt
